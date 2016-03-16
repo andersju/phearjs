@@ -16,7 +16,7 @@
         "port": 8183,
         "timeout": 10000,
         "parse_delay": 5000,
-        "user_agent": "PhearBot/0.4.1 - http://phear.io",
+        "user_agent": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36",
         "max_connections": 10,
         "get_requests": false,
         "get_cookies": false
@@ -43,7 +43,7 @@
         "port": 8183,
         "timeout": 10000,
         "parse_delay": 5000,
-        "user_agent": "PhearBot/0.4.1 - http://phear.io",
+        "user_agent": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36",
         "max_connections": 10,
         "allowed_clients": ["127.0.0.1"],
         "get_requests": false,
