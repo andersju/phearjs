@@ -13,7 +13,7 @@
         port: config.worker.port
       };
       worker_config = JSON.stringify(config.worker);
-      workers[i].process = respawn(["phantomjs", "--disk-cache=no", "--ignore-ssl-errors=yes", "--ssl-protocol=any", "lib/worker.js", "--config=" + worker_config], {
+      workers[i].process = respawn(["phantomjs", "--disk-cache=no", "--ignore-ssl-errors=no", "--ssl-protocol=any", "lib/worker.js", "--config=" + worker_config], {
         cwd: '.',
         sleep: 1000,
         stdio: [0, 1, 2],

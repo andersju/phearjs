@@ -17,7 +17,7 @@ spawn = (n) ->
     workers[i].process = respawn(["phantomjs",
                                   # "--load-images=no", # Due to an issue in QT a memory leak occurs with this. Re-enable when solved. Info: https://github.com/ariya/phantomjs/issues/12903.
                                   "--disk-cache=no",
-                                  "--ignore-ssl-errors=yes",
+                                  "--ignore-ssl-errors=no",
                                   "--ssl-protocol=any",
                                   "lib/worker.js",
                                   "--config=#{worker_config}"], {
